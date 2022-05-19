@@ -21,6 +21,20 @@ li{
     list-style-type: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.row {
+    width: 100%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -44,7 +58,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #556b2f;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -52,12 +66,12 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #718e3f;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: #556b2f;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -68,4 +82,22 @@ nav {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-me__picture {
+    width: 100%;
 }

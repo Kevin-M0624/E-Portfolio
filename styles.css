@@ -33,6 +33,11 @@ li{
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+
+}
+
 .row {
     width: 100%;
     min-width: 800px;
@@ -41,6 +46,14 @@ li{
 
 .text--green {
     color: #556b2f;
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;  
 }
 
 /* NAVIGATION BAR */
@@ -92,6 +105,11 @@ nav {
     flex-direction: column;
 }
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -128,4 +146,14 @@ nav {
     color: #242424;
     text-decoration: none;
     padding: 0 16px;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }

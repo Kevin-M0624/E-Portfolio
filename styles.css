@@ -176,6 +176,7 @@ nav {
     width: 25%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .language__img--wrapper {
@@ -193,4 +194,5 @@ nav {
 
 .language__name{
     position: absolute;
+    bottom: 0;
 }

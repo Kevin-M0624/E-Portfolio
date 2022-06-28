@@ -178,5 +178,6 @@ nav {
 
 .language__list {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
 }

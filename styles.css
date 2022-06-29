@@ -251,6 +251,7 @@ nav {
     left: 90px;
     transform: translate(-50%);
     max-width: 550px;
+    z-index: 3;
 }
 
 .project__description--title,

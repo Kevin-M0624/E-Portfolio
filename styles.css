@@ -254,6 +254,20 @@ nav {
     z-index: 3;
 }
 
+.project__description--title {
+    font-size: 40px;
+}
+
+.project__description--para {
+    margin: 16px 0;
+}
+
+.project__description--link {
+    font-size: 20px;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,

@@ -210,7 +210,7 @@ nav {
 
 .project__img {
     width: 100%;
-    transition: all 500ms;
+    transition: all 500ms ease;
 }
 
 .project__wrapper {
@@ -249,7 +249,7 @@ nav {
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     max-width: 550px;
     z-index: 3;
 }

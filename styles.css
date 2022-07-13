@@ -160,7 +160,7 @@ nav {
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
-    animation: animate-profile-picture 800ms;
+    animation: animate-profile-picture 800ms 1s backwards;
 }
 
 @keyframes animate-profile-picture {

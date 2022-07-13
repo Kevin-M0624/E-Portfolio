@@ -198,6 +198,10 @@ nav {
     animation: fade-up 650ms 400ms backwards;
 }
 
+.about-me__links {
+    animation: fade-up 650ms 400ms backwards;
+}
+
 @keyframes fade-up {
     0% {
         opacity: 0;
